@@ -7,11 +7,24 @@
 	<title>Ejercicio 03 Cookies</title>
 
 	<link rel="stylesheet" href="./styles/style.css">
-	<script src="./scripts/main.js" defer></script>
+	<script src="./scripts/lib.js"></script>
+	<script src="./scripts/main.js"></script>
 </head>
 <body>
-	<header></header>
-	<section></section>
-	<footer></footer>
+	<div class="container">
+		<div class="title"><h1>Gestionar Cookies</h1></div>
+	</div>
+	<div class="section">
+		<div class="buttons">
+			<button onclick="anyadir()">Añadir</button>
+			<button onclick="consultar()">Consultar</button>
+			<button onclick="modificar()">Modificar</button>
+			<button onclick="borrar()">Borrar</button>
+			<button onclick="borrarTodo()">Borrar Todo</button>
+		</div>
+		<div id="lista">
+
+		</div>
+	</div>
 </body>
 </html>
