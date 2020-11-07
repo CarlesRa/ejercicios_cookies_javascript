@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Ejercicio 04 Cookies</title>
+
+	<link rel="stylesheet" href="./styles/style.css">
+	<script src="./scripts/lib.js"></script>
+	<script src="./scripts/main.js" defer></script>
+</head>
+
+<body>
+
+	<div class="container">
+
+		<header id="head">
+			<h1 class="m-left">Juan Carlos Ramos 2ºDAW</h1>
+			<nav class="m-right">
+				<a href="#">Preferencias</a>
+				<a href="#">Contacto</a>
+			</nav>
+		</header>
+
+		<div class="section">
+
+			<aside id="aside">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit.
+				Explicabo quo vel ex quae sit repellendus, fugit dolor
+				dolorem quas nam exercitationem architecto nihil. Odio
+				expedita nam corrupti, cumque porro libero.
+				Lorem ipsum dolor sit amet consectetur adipisicing elit.
+				Explicabo quo vel ex quae sit repellendus, fugit dolor
+				dolorem quas nam exercitationem architecto nihil. Odio
+				expedita nam corrupti, cumque porro libero.
+				Lorem ipsum dolor sit amet consectetur adipisicing elit.
+				Explicabo quo vel ex quae sit repellendus, fugit dolor
+				dolorem quas nam exercitationem architecto nihil. Odio
+				expedita nam corrupti, cumque porro libero.
+				Lorem ipsum dolor sit amet consectetur adipisicing elit.
+				Explicabo quo vel ex quae sit repellendus, fugit dolor
+				dolorem quas nam exercitationem architecto nihil. Odio
+				expedita nam corrupti, cumque porro libero.
+				Lorem ipsum dolor sit amet consectetur adipisicing elit.
+				Explicabo quo vel ex quae sit repellendus, fugit dolor
+				dolorem quas nam exercitationem architecto nihil. Odio
+				expedita nam corrupti, cumque porro libero.
+				Lorem ipsum dolor sit amet consectetur adipisicing elit.
+				Explicabo quo vel ex quae sit repellendus, fugit dolor
+				dolorem quas nam exercitationem architecto nihil. Odio
+				expedita nam corrupti, cumque porro libero.
+				Lorem ipsum dolor sit amet consectetur adipisicing elit.
+				Explicabo quo vel ex quae sit repellendus, fugit dolor
+				dolorem quas nam exercitationem architecto nihil. Odio
+				expedita nam corrupti, cumque porro libero.
+			</aside>
+
+			<section id="sect">
+				<div class="titulo">
+					<h2>¡¡Preferencias de color!!</h2>
+				</div>
+
+				<div class="contenido">
+					<h3 id="menu-seleccion">Selecciona sus preferencias de color</h3>
+					<form name="forma" method="POST" onSubmit="return validarFormulario()">
+
+						<p>
+							<label for="header">Color de header</label>
+							<select name="header" id="ch-header">
+								<option value="red" onclick="selectedHeaderColor(this)">Rojo</option>
+								<option value="gray" onclick="selectedHeaderColor(this)">Gris</option>
+								<option value="green" onclick="selectedHeaderColor(this)">Verde</option>
+								<option value="blue" onclick="selectedHeaderColor(this)">Azul</option>
+							</select>
+						</p>
+						
+						<p>
+							<label for="section">Color de Section</label>
+							<select name="section" id="ch-section">
+								<option value="red" onclick="selectedSectionColor(this)">Rojo</option>
+								<option value="gray" onclick="selectedSectionColor(this)">Gris</option>
+								<option value="green" onclick="selectedSectionColor(this)">Verde</option>
+								<option value="blue" onclick="selectedSectionColor(this)">Azul</option>
+							</select>	
+						</p>
+
+						<p>
+							<label for="aside">Color de Aside</label>
+							<select name="aside" id="ch-aside">
+								<option value="red" onclick="selectedAsideColor(this)">Rojo</option>
+								<option value="gray" onclick="selectedAsideColor(this)">Gris</option>
+								<option value="green" onclick="selectedAsideColor(this)">Verde</option>
+								<option value="blue" onclick="selectedAsideColor(this)">Azul</option>
+							</select>	
+						</p>
+
+						<p>
+							<label for="footer">Color de Footer</label>
+							<select name="footer" id="ch-footer">
+								<option onclick="selectedFooterColor(this)" value="red">Rojo</option>
+								<option onclick="selectedFooterColor(this)" value="gray">Gris</option>
+								<option onclick="selectedFooterColor(this)" value="green">Verde</option>
+								<option onclick="selectedFooterColor(this)" value="blue">Azul</option>
+							</select>	
+						</p>
+
+					</form>
+				</div>
+
+			</section>
+
+		</div>
+
+		<footer id="footer">
+			<nav>Footer</nav>
+		</footer>
+
+	</div>
+
+</body>
+
+</html>
